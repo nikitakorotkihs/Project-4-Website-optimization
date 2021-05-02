@@ -13,9 +13,23 @@ body {
     height: auto;
 }
 
+img{
+    height: auto;
+    width: auto;
+}
+
+.image-size-mode{
+    height: 10px;
+    width: 10px;
+}
+
+.portfolio-thumb{
+    height: 270px;
+    width: 270px;
+}
 
 .text-intro{
-    font-size: 32px;
+    font-size: 24px;
     color: rgb(26, 25, 25);
     margin-bottom: 32px;
 }
@@ -25,7 +39,7 @@ body {
 }
 
 .text-into-3{
-    font-size: 38px;
+    font-size: 24px;
     color: rgb(26, 25, 25);
     margin-bottom: 32px;
 }

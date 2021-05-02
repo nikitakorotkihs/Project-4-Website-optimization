@@ -595,4 +595,7 @@ ul {
     display: block;
     margin-right: auto;
     margin-left: auto;
+    height: 100px;
+    width: auto;
 }
+
