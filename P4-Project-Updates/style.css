@@ -133,15 +133,7 @@ button {
     background: top no-repeat;
 }
 
-.bloc-bg-texture::before {
-    content: "";
-    background-size: 2px 2px;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-}
+
 
 .texture-paper::before {
     background: url("img/texture-paper.webp");
@@ -460,6 +452,11 @@ h1 {
 }
 
 .bg-atlanta-20made-20sign {
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
     background-image: url("img/atlanta%20made%20sign.webp");
 }
 
@@ -685,12 +682,39 @@ h1 {
     .col-sm-6{
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-content: center;
         align-items: center;
-        padding-bottom: 50px;
     }
     .text-center{
         font-size: 24px;
+    }
+    .form-group{
+        max-width: 350px;
+        display: flex;
+        flex-direction: column;
+    }
+    .lable-text{
+        max-width: 300px;
+    }
+    .contact-info{
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding-top: 100px;
+        font-size: large;
+        margin-left: 2rem;
+    }
+    .bloc-sm{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .row-no-gutters{
+        position: unset;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
     }
 }
