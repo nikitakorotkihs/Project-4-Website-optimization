@@ -452,11 +452,6 @@ h1 {
 }
 
 .bg-atlanta-20made-20sign {
-    height: auto;
-    width: auto;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
     background-image: url("img/atlanta%20made%20sign.webp");
 }
 
